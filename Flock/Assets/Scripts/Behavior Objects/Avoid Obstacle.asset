@@ -9,12 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5196e86d2facee47bafe20fb74c2b4e, type: 3}
-  m_Name: Avoidance Behavior
+  m_Script: {fileID: 11500000, guid: 572e145db627a4c45837b3b757968d96, type: 3}
+  m_Name: Avoid Obstacle
   m_EditorClassIdentifier: 
-  behaviors:
-  - {fileID: 11400000, guid: 3c8b3397e774fd8478dfa4097231b211, type: 2}
-  - {fileID: 11400000, guid: c93e152909f0be044a77661afe67dd40, type: 2}
-  weights:
-  - 1
-  - 1
+  filter: {fileID: 11400000, guid: ea0c7269189987d4cbc99387fb89207b, type: 2}
